@@ -34,7 +34,7 @@ This tool is completely free to use. However, if you find it helpful for your wo
 1. **Launch Dashboard:** From the top menu, click `Gadget > Gadget Entangle`.
 2. **Connect:** Ensure the Server Address is `localhost:8980` and click the **Connect** button.
 3. **Entangle (Subscribe):** Keep this toggled ON to enable real-time mesh updates as you model in Plasticity.
-4. **📂 Target Work Area (Sandbox):** Drag and drop an empty GameObject (Folder) from your Hierarchy here. GEP will exclusively sync objects within this folder, preventing your other scene objects from being accidentally modified.※Completely preventing this may be a mistake; it is recommended to duplicate the modeled object in the Unity hierarchy (this will break the Plasticity object ID).
+4. **📂 Target Work Area (Sandbox):** Drag and drop an empty GameObject (Folder) from your Hierarchy here. GEP will exclusively sync objects within this folder, preventing your other scene objects from being accidentally modified.//Completely preventing this may be a mistake; it is recommended to duplicate the modeled object in the Unity hierarchy (this will break the Plasticity object ID).
 5. **Generate ID Map:** Instantly assigns random colored materials to each part based on its Plasticity ID for easy material separation.
 6. **🛠️ Ultimate Weld (For Sculpting):**
    * Select your synced meshes and click `Execute Ultimate Weld` to close gaps and merge overlapping vertices.
