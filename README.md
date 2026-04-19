@@ -24,13 +24,12 @@ This tool is completely free to use. However, if you find it helpful for your wo
 
 ### 2. Unity Setup
 1. Create a **New Project** in Unity (Recommended version: Unity 6 / URP).
-2. Go to `Edit > Project Settings > Player > Resolution and Presentation` and **Enable `Run In Background`** (Crucial for real-time sync while Plasticity is in focus!).
-3. Download the `GEP_v1.0.0.unitypackage` from this repository.
-4. Import the package into your Unity project (`Assets > Import Package > Custom Package...`).
+2. Download the `GEP_v1.0.0.unitypackage` from this repository.
+3. Import the package into your Unity project (`Assets > Import Package > Custom Package...`).
 
 ---
 
-## 🎮 How to Use & Features
+## 制作機能と使い方 (Features)
 
 1. **Launch Dashboard:** From the top menu, click `Gadget > Gadget Entangle`.
 2. **Connect:** Ensure the Server Address is `localhost:8980` and click the **Connect** button.
@@ -75,9 +74,8 @@ For full details, please read the [LICENSE](./LICENSE) file.
 
 ### 2. Unity側の準備
 1. Unityで**空の新規プロジェクト**を作成します（推奨：Unity 6 / URP環境）。
-2. `Edit > Project Settings > Player > Resolution and Presentation` を開き、**`Run In Background` に必ずチェックを入れてください**（※Plasticity操作中に同期を止めないための必須設定です！）。
-3. このリポジトリから `GEP_v1.0.0.unitypackage` をダウンロードします。
-4. Unityプロジェクトにインポートします（`Assets > Import Package > Custom Package...`）。
+2. このリポジトリから `GEP_v1.0.0.unitypackage` をダウンロードします。
+3. Unityプロジェクトにインポートします（`Assets > Import Package > Custom Package...`）。
 
 ---
 
