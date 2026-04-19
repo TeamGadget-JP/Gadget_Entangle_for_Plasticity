@@ -84,7 +84,7 @@ For full details, please read the [LICENSE](./LICENSE) file.
 1. **ダッシュボード起動:** Unity上部メニューから `Gadget > Gadget Entangle` をクリックします。
 2. **接続:** Server Addressが `localhost:8980` になっていることを確認し、**Connect** ボタンを押します。
 3. **Entangle (Subscribe):** これをONにしておくと、Plasticityでのモデリング結果がリアルタイムに反映されます。
-4. **📂 Target Work Area (サンドボックス機能):** ヒエラルキー上の空オブジェクト（フォルダ）をここにドラッグ＆ドロップすると、そのフォルダ内だけで同期が行われます。他のモデルを巻き込む事故を完全に防ぎます。
+4. **📂 Target Work Area (サンドボックス機能):** ヒエラルキー上の空オブジェクト（フォルダ）をここにドラッグ＆ドロップすると、そのフォルダ内だけで同期が行われます。他のモデルを巻き込む事故を完全に防ぎます。※完全に防ぐは誤りの可能性あり、モデリングが完了したオブジェクトはUnityのヒエラルキーで複製(これによりPlasticityのオブジェクトIDを断ち切る事ができます)を取ることを推奨します。
 5. **Generate ID Map:** PlasticityのIDを元に、パーツごとにランダムなカラーマテリアルを自動生成・割り当てします。
 6. **🛠️ Ultimate Weld（スカルプト向け頂点結合）:**
    * 同期したメッシュを選択して `Execute Ultimate Weld` を押すと、パーツ間の隙間を埋めて頂点を結合します（Ctrl+ZでUndo可能）。
