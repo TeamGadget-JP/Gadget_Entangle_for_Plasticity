@@ -29,7 +29,7 @@ This tool is completely free to use. However, if you find it helpful for your wo
 
 ---
 
-## 制作機能と使い方 (Features)
+## How to use and main features
 
 1. **Launch Dashboard:** From the top menu, click `Gadget > Gadget Entangle`.
 2. **Connect:** Ensure the Server Address is `localhost:8980` and click the **Connect** button.
